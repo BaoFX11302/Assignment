@@ -1,0 +1,12 @@
+
+.list-group-item {
+    background-color: rgb(68, 169, 209);
+}
+.list-group-item {
+    color: rgb(252, 252, 252);
+}
+.list-group :hover {
+    color: black;
+    cursor: pointer;
+    background-color: rgb(31, 120, 155);
+}

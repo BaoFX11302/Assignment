@@ -1,3 +1,5 @@
+import dateFormat, { masks } from "dateformat";
+
 export const DEPARTMENTS =
     [
         {
@@ -35,10 +37,10 @@ export const STAFFS =
         {
             id: 0,
             name: "Nguyễn Văn A",
-            doB: "1999-01-01T08:59:00.000Z",
+            doB: dateFormat("1999-01-01T08:59:00.000Z", "dd/mm/yyyy"),
             salaryScale: 1.1,
-            startDate: "2019-04-30T08:59:00.000Z",
-            department: DEPARTMENTS[0],
+            startDate: dateFormat("2019-04-30T08:59:00.000Z", "dd/mm/yyyy"),
+            department: DEPARTMENTS[0].name,
             annualLeave: 1,
             overTime: 1,
             image: '/assets/images/alberto.png',
@@ -46,10 +48,10 @@ export const STAFFS =
         {
             id: 1,
             name: "Nguyễn Văn B",
-            doB: "2000-01-01T08:59:00.000Z",
+            doB: dateFormat("2000-01-01T08:59:00.000Z", "dd/mm/yyyy"),
             salaryScale: 1.2,
-            startDate: "2019-04-30T08:59:00.000Z",
-            department: DEPARTMENTS[1],
+            startDate: dateFormat("2019-04-30T08:59:00.000Z", "dd/mm/yyyy"),
+            department: DEPARTMENTS[1].name,
             annualLeave: 2,
             overTime: 3,
             image: '/assets/images/alberto.png',
@@ -57,10 +59,10 @@ export const STAFFS =
         {
             id: 2,
             name: "Nguyễn Văn C",
-            doB: "2001-01-01T08:59:00.000Z",
+            doB: dateFormat("2001-01-01T08:59:00.000Z", "dd/mm/yyyy"),
             salaryScale: 1,
-            startDate: "2019-04-30T08:59:00.000Z",
-            department: DEPARTMENTS[3],
+            startDate: dateFormat("2019-04-30T08:59:00.000Z", "dd/mm/yyyy"),
+            department: DEPARTMENTS[3].name,
             annualLeave: 4,
             overTime: 5,
             image: '/assets/images/alberto.png',
@@ -68,10 +70,10 @@ export const STAFFS =
         {
             id: 3,
             name: "Nguyễn Văn D",
-            doB: "2002-01-01T08:59:00.000Z",
+            doB: dateFormat("2002-01-01T08:59:00.000Z", "dd/mm/yyyy"),
             salaryScale: 1,
-            startDate: "2019-04-30T08:59:00.000Z",
-            department: DEPARTMENTS[2],
+            startDate: dateFormat("2019-04-30T08:59:00.000Z", "dd/mm/yyyy"),
+            department: DEPARTMENTS[2].name,
             annualLeave: 6,
             overTime: 7,
             image: '/assets/images/alberto.png',
@@ -79,10 +81,10 @@ export const STAFFS =
         {
             id: 4,
             name: "Nguyễn Văn E",
-            doB: "1999-01-01T08:59:00.000Z",
+            doB: dateFormat("1999-01-01T08:59:00.000Z", "dd/mm/yyyy"),
             salaryScale: 1,
-            startDate: "2019-04-30T08:59:00.000Z",
-            department: DEPARTMENTS[2],
+            startDate: dateFormat("2019-04-30T08:59:00.000Z", "dd/mm/yyyy"),
+            department: DEPARTMENTS[2].name,
             annualLeave: 8,
             overTime: 1,
             image: '/assets/images/alberto.png',
@@ -90,10 +92,10 @@ export const STAFFS =
         {
             id: 5,
             name: "Nguyễn Văn F",
-            doB: "2003-01-01T08:59:00.000Z",
+            doB: dateFormat("2003-01-01T08:59:00.000Z", "dd/mm/yyyy"),
             salaryScale: 1,
-            startDate: "2019-04-30T08:59:00.000Z",
-            department: DEPARTMENTS[4],
+            startDate: dateFormat("2019-04-30T08:59:00.000Z", "dd/mm/yyyy"),
+            department: DEPARTMENTS[4].name,
             annualLeave: 9,
             overTime: 10,
             image: '/assets/images/alberto.png',
