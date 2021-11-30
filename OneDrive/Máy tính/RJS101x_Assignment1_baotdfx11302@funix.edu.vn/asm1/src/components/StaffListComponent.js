@@ -14,7 +14,7 @@ class StaffList extends Component {
 
         const stafflist = this.props.staffdetail.map((staffs) => {
             return(
-                    <ListGroup key={staffs.id} className='col-md-6 col-sm-12 col-12 mt-1' style={{float:'left'}}>
+                    <ListGroup key={staffs.id} className='col-md-6 col-sm-12 col-12 mt-1'>
                         <ListGroupItem>{staffs.name}</ListGroupItem>
                     </ListGroup>
             );
@@ -23,9 +23,7 @@ class StaffList extends Component {
         return(
             <div className="container">
                 <div className="row">
-                    <div>
                         {stafflist}
-                    </div>
                 </div>
             </div>
         );
